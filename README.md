@@ -3,9 +3,7 @@
 An interactive anomaly detection platform for chemical process yield analysis. Built with Streamlit, scikit-learn, and Plotly for comprehensive analytics and visualization.
 
 **Author:** Hridesh Singh Chauhan  
-**Purpose:** Portfolio project demonstrating data science and machine learning capabilities for internship applications.
-
-> 🌐 **Live Repository:** [View on GitHub](https://github.com/yourusername/lab-yield-anomaly-detection) *(Update with your actual GitHub URL)*
+**Purpose:** Portfolio project demonstrating data science and machine learning capabilities within chemical engineering projects.
 
 ---
 
@@ -65,9 +63,8 @@ pip install -r requirements.txt
    - Use the synthetic demo data option
 
 3. **Configure parameters:**
-   - Adjust anomaly contamination rate (default: 5%)
    - Set Random Forest estimators (default: 200)
-   - Configure significance threshold (default: 3%)
+   - Configure significance threshold
 
 4. **Run analysis:**
    - Navigate to the **Dashboard** tab
@@ -96,7 +93,6 @@ pip install -r requirements.txt
    - Correlation heatmaps
    - Distribution comparisons
    - Box plots for feature analysis
-   - Anomaly score distributions
 
 4. **🎯 Root Cause Analysis**
    - Top root cause indicators
@@ -112,8 +108,6 @@ pip install -r requirements.txt
 
 6. **💾 Export**
    - Download processed datasets
-   - Export metrics and reports
-   - Feature importance exports
    - Comprehensive summary reports
 
 ---
@@ -222,15 +216,6 @@ Temperature_C, Pressure_atm, Catalyst_Concentration_mol_L, Reaction_Yield_percen
 2. Statistical significance testing (t-test or Mann-Whitney U based on normality)
 3. Effect size calculation (Cohen's d)
 4. Root cause identification (significant + large effect size)
-
----
-
-## 📝 Configuration
-
-The application supports configuration via:
-- Sidebar sliders (runtime)
-- `config.py` for default settings
-- `config.json` for persistent settings (auto-created)
 
 ---
 
